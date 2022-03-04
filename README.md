@@ -13,7 +13,6 @@
   git clone https://github.com/Fybex/UA-avatar
   cd UA-avatar
   npm i
-  npm start
 ```
 
 Set your remove.bg API key in RemovebgAPIKey.js file
@@ -22,6 +21,6 @@ Set your remove.bg API key in RemovebgAPIKey.js file
   export const RemovebgAPIKey = [YOUR_API_KEY]
 ```
 
-Now you can finally open [`localhost:3000`](localhost:3000/)
+Now you can finally run development server `npm start` and open [`localhost:3000`](localhost:3000/)
 
 **#StopWarInUkraine**
