@@ -23,3 +23,5 @@ Set your remove.bg API key in RemovebgAPIKey.js file
 ```
 
 Now you can finally open [`localhost:3000`](localhost:3000/)
+
+**#StopWarInUkraine**
