@@ -23,6 +23,7 @@ import { removeBackgroundFromImageBase64 } from "remove.bg"
 import { triggerBase64Download } from 'react-base64-downloader'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider'
 import { createBreakpoints } from '@chakra-ui/theme-tools'
+import { RemovebgAPIKey } from './RemovebgAPIKey'
 
 const breakpoints = createBreakpoints({
   sm: '30em',
@@ -45,7 +46,7 @@ function App() {
 
       removeBackgroundFromImageBase64({
         base64img: reader.result,
-        apiKey: process.env.REACT_APP_API_KEY,
+        apiKey: RemovebgAPIKey,
         size: "regular",
         type: "product",
         bg_image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/640px-Flag_of_Ukraine.svg.png"
@@ -95,7 +96,7 @@ function App() {
                 fontWeight="bold"
                 fontSize={{ base: "md", sm: "lg" }}
               >
-                Ukraine avatar
+                Ukrainian avatar
               </Text>
             </Box>
             <Button onClick={toggleColorMode} bg="transparent">
@@ -253,7 +254,7 @@ function App() {
             borderColor="#005BBB #005BBB #FFD500 #FFD500"
             width="max-content"
           >
-            <Text fontWeight="bold" fontSize="md" >Ukraine avatar</Text>
+            <Text fontWeight="bold" fontSize="md">Ukrainian avatar</Text>
           </Box>
           <Text>© 2022 All rights reserved.</Text>
         </Stack>
