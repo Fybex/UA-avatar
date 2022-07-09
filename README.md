@@ -15,7 +15,7 @@
   npm i
 ```
 
-Set your remove.bg API key in RemovebgAPIKey.js file
+Set your remove.bg API key in `RemovebgAPIKey.js` file
 
 ```javascript
   export const RemovebgAPIKey = [YOUR_API_KEY]
